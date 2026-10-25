@@ -1,0 +1,25 @@
+# Banco local: pode conter dados pessoais (LGPD)
+techbairro.db
+techbairro.db-*
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.py[cod]
+
+# Pacotes gerados
+dist/
+build/
+*.zip
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Configurações locais de editores e sistema
+.vscode/
+.DS_Store
+Thumbs.db

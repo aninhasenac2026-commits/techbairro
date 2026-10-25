@@ -1,0 +1,51 @@
+TECHBAIRRO 3.3.1 — COMO EXECUTAR (Windows 10/11 e VS Code)
+
+1. EXTRAIR E ABRIR
+- Extraia a pasta TechBairro para um local fácil de encontrar.
+- No VS Code, use Arquivo > Abrir Pasta e selecione a pasta TechBairro.
+
+2. CONFERIR O PYTHON
+Abra Terminal > Novo Terminal e execute:
+    python --version
+    python -m tkinter
+A segunda linha deve abrir uma pequena janela de teste. Feche-a.
+Se o comando python não funcionar, tente py --version e use py no lugar de python.
+
+3. PREPARAR O BANCO LOCAL
+Na pasta principal do projeto, execute:
+    python scripts/criar_banco.py
+Isso cria/verifica techbairro.db e a tabela clientes. O banco local fica fora do Git porque pode conter dados pessoais.
+
+4. EXECUTAR O SISTEMA
+    python techbairro.py
+A janela do TechBairro deve abrir. Cadastre um cliente fictício para testar e não use dados reais em demonstrações públicas.
+
+5. EXECUTAR OS TESTES
+    python -m unittest discover -s tests -v
+Os testes automatizados verificam validações e operações do banco.
+
+6. CONFERIR O BANCO
+    python scripts/verificar_banco.py
+    python scripts/travar_banco.py
+
+7. GERAR O PACOTE ZIP DE DISTRIBUIÇÃO
+    python scripts/gerar_pacote.py
+O arquivo será criado dentro de dist/. Essa pasta é gerada localmente e ignorada pelo Git; o pacote pode ser entregue separadamente.
+
+8. CONSULTAR O HISTÓRICO DO GIT
+    git status
+    git log --oneline
+    git log --oneline --decorate
+
+VERSÃO
+TechBairro 3.3.1. Consulte CHANGELOG.md para o histórico de alterações.
+
+IMPORTANTE SOBRE O GIT E O GITHUB
+- O código, os testes, os scripts e a documentação são versionados.
+- __pycache__ é cache gerado automaticamente pelo Python e não deve ser enviado ao Git.
+- dist/ contém pacotes gerados e fica fora do Git.
+- techbairro.db é o banco local e fica fora do Git para evitar publicar dados pessoais.
+- Nunca publique dados reais de clientes.
+- Para publicar no GitHub, crie um repositório vazio e siga o arquivo GIT_E_GITHUB.txt.
+
+Versão atual do programa: 3.3.1.

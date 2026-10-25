@@ -1,0 +1,2 @@
+# A TechBairro não usa bibliotecas externas.
+# Usa apenas a biblioteca padrão: os, sqlite3, tkinter e unittest.
