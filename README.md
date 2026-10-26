@@ -82,4 +82,4 @@ python -m unittest discover -s tests -v
 ```
 
 ## Autor
-Preencha com seu nome — Técnico em Desenvolvimento de Sistemas, Senac DF.
+Ana Carolina — Técnico em Desenvolvimento de Sistemas, Senac DF.
