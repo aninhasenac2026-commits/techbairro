@@ -7,7 +7,6 @@
 
 | ID | Requisito | Passos e dados | Esperado | Obtido | Status |
 |---|---|---|---|---|---|
-ID	Requisito	Passos e dados	Esperado	Obtido	Status
 CT01	RF01	Cadastrar Ana Silva com todos os campos corretos.	O cliente deve ser cadastrado com sucesso e aparecer na consulta.	Cliente 'Ana Silva' cadastrado com sucesso! Contador: Clientes cadastrados: 2.	Aprovado
 ID	Requisito	Passos e dados	Esperado	Obtido	Status
 CT02	RF01	Tentar salvar com Nome e Endereço vazios.	O sistema deve impedir o cadastro e informar os campos obrigatórios.	Preencha o(s) campo(s): Nome, Endereço	Aprovado
