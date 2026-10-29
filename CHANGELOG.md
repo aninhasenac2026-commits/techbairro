@@ -28,3 +28,10 @@
 ### Adicionado
 - Script `scripts/criar_banco.py` para criar/verificar o banco local sem abrir a interface.
 - Instruções revisadas para execução, testes, criação do banco e geração do pacote ZIP.
+
+## v3.2.1 (Aula 27)
+### Adicionado
+- README com requisitos, instalação e configuração do banco.
+- Arquivo requirements.txt.
+- Manual de uso em docs/manual_de_uso.md.
+- Registro de testes em docs/registro_de_testes.md.
