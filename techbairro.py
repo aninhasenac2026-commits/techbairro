@@ -12,7 +12,7 @@ from banco import GerenciadorClientes
 from cliente import Cliente
 from validacao import ValidadorCliente
 
-VERSAO = "3.3.1"
+VERSAO = "3.2.1"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CAMINHO_BANCO = os.path.join(BASE_DIR, "techbairro.db")
 
